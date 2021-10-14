@@ -1,10 +1,15 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'pm-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'pm-root',  // pm - product managment hence root, root app component
+  template: `<div>
+  <h1>{{pageTitle}}</h1>
+  <p>My first component</p>
+  </div>`
 })
+
+
+// Code - (OOP class design) attributes and methods
 export class AppComponent {
-  title = 'Angular: Getting Started';
+  pageTitle: string = "Acme Product Management";
 }

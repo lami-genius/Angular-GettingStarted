@@ -8,8 +8,8 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule // always import this browser module
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent]  // start up component
 })
 export class AppModule { }
